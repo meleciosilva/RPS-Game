@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
 </head>
 <body>
     <div class='contanier'>
-        <h1>Score</h1>
-        <span id='result'></span>
-        <div class='scores'>
-            <span id='player-score'>0</span>
-            <span id='com-score'>0</span>
+        <h1>Rock | Paper | Scissors</h1>
+        <div class='item scores'>
+            <div class='player'>
+                <h2>Player Score</h2>
+                <span id='player-score'>0</span>
+            </div>
+            <div class='computer'>
+                <h2>Computer Score</h2>
+                <span id='computer-score'>0</span>
+            </div>
         </div>
-        <div class=btn-container>
+        <div class='item result'>
+            <h3></h3>
+        </div>
+        <div class='item btn-container'>
             <button id='rock'>Rock</button>
             <button id='paper'>Paper</button>
             <button id='scissors'>Scissors</button>
