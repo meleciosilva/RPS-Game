@@ -2,9 +2,15 @@
 
 ## Introduction
 
-This project is a basic rock, paper, scissors game.
+This project is a basic rock, paper, scissors game. It features a user interface that allows the players to choose game selection.
 
 ## How to Play
 
-This game is played entirely in the console. The player will be prompted to select 'rock', 'paper', or 'scissors'. The computer's selection is chosen at random for each round of play. The console will provide results after each round of play. The game is over once either the player or computer achieves a score of 5.
+The game begins upon loading. The player insitiates gameplay by selecting either 'Rock', 'Paper', or 'Scissors'. The computer's selection is randomly chosen for each round of play. At the conclusion of each round, the user will be prompted with the results and an updated score. The game is over once either the player or computer achieves a score of 5.
+
+![Image of Rock, Paper, Scissors game](./images/"rps-game")
+
+## Authors
+
+GitHub: [@meleciosilva](https://github.com/meleciosilva)
 
